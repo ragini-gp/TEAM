@@ -34,7 +34,10 @@ body{
     padding: 5px;
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 a.active, a:hover{
     background-color:rgb(72 225 43);
+    color: black;
+    /* font-weight: bold; */
 }
