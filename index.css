@@ -1,5 +1,5 @@
 body {
-    background-image: url("5.jpg");
+    background-image: url("53.jpg");
     background-repeat: no-repeat;
     /* background-color: gray; */
 }
@@ -19,7 +19,7 @@ body {
 }
 
 .navBar {
-    background-color: black;
+    background-color: rgb(9, 6, 59);
     height: 60px;
     width: 100%;
     border: 100%;
@@ -82,9 +82,10 @@ a:hover {
 
 .con {
     width: 80%;
-    border: 2px solid rgb(13, 5, 72);
+    /* border: 2px solid rgb(13, 5, 72); */
     margin: auto;
     display: grid;
+    grid-gap: 2rem;
     grid-template-columns: 2.5fr 1fr;
     /* height: 100%; */
 }
@@ -92,19 +93,28 @@ a:hover {
 .con1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* background-color: rgb(236, 225, 225); */
     grid-gap: 3rem;
     /* border: 2px solid orange; */
     /* height: 50px; */
 }
 
 .con1 .bx {
-    border: 2px solid red;
-    height: 40px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: rgb(156, 213, 224);
+    /* height: 40px; */
 }
 
-.con1 .bx1,
-.con1 .bx2 {
+.con1 .bx p{
+    color: rgb(94, 82, 224);
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+.con1 .bx1,.con1 .bx2{
     margin-top: 20px;
+    padding: 5px;
 }
 
 .news {
@@ -115,4 +125,27 @@ a:hover {
 .news h2 {
     text-align: center;
     background-color: wheat;
+}
+.con1 img{
+    height: 100px;
+    /* margin: auto; */
+    width: 50%;
+}
+.pa p{
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+}
+.pa{
+    background-color: rgb(99, 121, 235);
+}
+.an{
+    margin-bottom: 20px;
+}
+.bx4 a:hover{
+   color: blue;
+   background-color: white;
+}
+.ch{
+    padding: 10px;
 }
