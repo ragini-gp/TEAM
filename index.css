@@ -52,17 +52,24 @@ a.active, a:hover{
     /* height: 100%; */
 }
 .con1{
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 2rem; */
-    border: 2px solid orange;
-    height: 50px;
+    grid-gap: 3rem;
+    /* border: 2px solid orange; */
+    /* height: 50px; */
 }
-/* .con1 .bx{
+.con1 .bx{
 border: 2px solid red;
 height: 40px;
-} */
+}
+.con1 .bx1,.con1 .bx2{
+    margin-top: 20px;
+}
 .news{
     border: 2px solid rgb(37, 32, 183);
-    height: 100px;
+    /* height: 100px; */
+}
+.news h2{
+    text-align: center;
+    background-color: wheat;
 }
