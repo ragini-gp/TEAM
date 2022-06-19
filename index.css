@@ -4,7 +4,9 @@ body{
    /* background-color: gray; */
 }
 .nr h1{
-    color: wheat;
+    color: #e4e4a6;
+    text-align: center;
+    padding: 5px;
     font-size: 60px;
     font-family: 'Pacifico', cursive;
 }
@@ -40,4 +42,27 @@ a.active, a:hover{
     background-color:rgb(72 225 43);
     color: black;
     /* font-weight: bold; */
+}
+.con{
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    /* height: 100%; */
+}
+.con1{
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem; */
+    border: 2px solid orange;
+    height: 50px;
+}
+/* .con1 .bx{
+border: 2px solid red;
+height: 40px;
+} */
+.news{
+    border: 2px solid rgb(37, 32, 183);
+    height: 100px;
 }
