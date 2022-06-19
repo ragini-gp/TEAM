@@ -14,7 +14,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 .navBar{
-    background-color: black;
+    background-color: rgb(222, 213, 213);
     height: 50px;
     width: 100%;
 }
@@ -29,6 +29,8 @@ body{
 }
 .list a{
     color: white;
+    color: blue;
+    text-decoration: none;
 }
 a.active, a:hover{
     background-color:dimgray;
