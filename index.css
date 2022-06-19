@@ -5,8 +5,9 @@
 }
 .navBar{
     background-color: black;
-    height: 50px;
+    height: 60px;
     width: 100%;
+    border: 100%;
 }
 .list{
     float: right;
@@ -14,11 +15,13 @@
 }
 .list li{
     display: inline-block;
-    line-height: 50px;
+    line-height: 60px;
     margin: 0 5px;
 }
 .list a{
     color: white;
+    padding: 7px 13px;
+    border-radius: 3px;
 }
 a.active, a:hover{
     background-color:dimgray;
