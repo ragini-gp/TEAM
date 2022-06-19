@@ -66,13 +66,14 @@ a:hover {
 }
 
 .dropdown li+li {
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 .dropdown li {
-    padding: 1em 1em;
-    width: 8em;
+    padding: 2px 2px;
+    width: 15em;
     text-align: center;
+    border: 20em;
 }
 
 .bar:hover .dropdown {
