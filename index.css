@@ -16,9 +16,10 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 .navBar{
-    background-color: rgb(54, 65, 224);
-    height: 50px;
+    background-color: black;
+    height: 60px;
     width: 100%;
+    border: 100%;
 }
 .list{
     float: right;
@@ -26,21 +27,19 @@ body{
 }
 .list li{
     display: inline-block;
-    line-height: 50px;
+    line-height: 60px;
     margin: 0 5px;
 }
 .list a{
     color: white;
-    /* color: blue; */
-    margin: 10px;
-    padding: 5px;
+    padding: 7px 13px;
+    border-radius: 3px;
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
 }
 a.active, a:hover{
-    background-color:rgb(72 225 43);
-    color: black;
+    background-color:dimgray;
     /* font-weight: bold; */
 }
 .con{
