@@ -84,8 +84,8 @@ a:hover {
     display: flex;
     height: 250px;
     justify-content: space-between;
-    background-image: url('b1\ \(3\).jpg');
-    /* opacity: 0.6; */
+    background-image: url(./Ocean2.jpg);
+    background-repeat: no-repeat;
 }
 
 .mainlogo{
