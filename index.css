@@ -84,6 +84,7 @@ a:hover {
     display: flex;
     height: 250px;
     justify-content: space-between;
+    background-image: url(./Ocean.jpg);
 }
 
 .mainlogo{
