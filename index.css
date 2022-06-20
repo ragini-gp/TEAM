@@ -5,7 +5,7 @@ body {
 }
 
 .nr h1 {
-    color: #e4e4a6;
+    color: #e0e035;
     text-align: center;
     padding: 5px;
     font-size: 60px;
@@ -84,6 +84,8 @@ a:hover {
     display: flex;
     height: 250px;
     justify-content: space-between;
+    background-image: url('b1\ \(3\).jpg');
+    /* opacity: 0.6; */
 }
 
 .mainlogo{
