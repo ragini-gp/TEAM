@@ -80,6 +80,32 @@ a:hover {
     display: block;
 }
 
+.logo{
+    display: flex;
+    height: 250px;
+    justify-content: space-between;
+}
+
+.mainlogo{
+    height: 150px;
+    padding-top: 100px;
+    /* padding-bottom: 250px; */
+}
+
+.name-hin{
+    height: 50px;
+    padding-top: 100px;
+}
+
+.hin1{
+    height: 40px;
+}
+
+.rightLogo{
+    height: 100px;
+    /* padding-bottom: 250px; */
+}
+
 .con {
     width: 80%;
     /* border: 2px solid rgb(13, 5, 72); */
