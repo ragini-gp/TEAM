@@ -101,7 +101,7 @@ a:hover {
 
 .con {
     width: 80%;
-    /* border: 2px solid rgb(13, 5, 72); */
+    border: 2px solid rgb(13, 5, 72);
     margin: auto;
     display: grid;
     grid-gap: 2rem;
@@ -167,4 +167,26 @@ a:hover {
 }
 .ch{
     padding: 10px;
+}
+.grid{
+    background-image: url('2.jpg');
+    padding: 44px;
+    width: 74%;
+    grid-gap: 4rem;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 2px solid red; */
+}
+.grid .b{
+    width: 100%;
+    height: 200px;
+    border: 5px solid green;
+}
+footer{
+    height: 200px;
+    width: 77%;
+    margin: auto;
+    border: 4px solid blue;
+    background-image: url('5.jpg');
 }
