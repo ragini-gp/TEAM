@@ -121,12 +121,12 @@ a:hover {
 .con1 .bx {
     /* border: 2px solid red; */
     text-align: center;
-    background-color: rgb(126, 212, 230);
+    background-color: rgb(114, 168, 235);
     /* height: 40px; */
 }
 
 .con1 .bx p{
-    color: rgb(94, 82, 224);
+    color: white;
     margin-top: 10px;
     font-style: italic;
     font-weight: bold;
